@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1655792014 source:c:\users\student\documents\tutul\veriable\veriable\main.c
+	<stdio.h>
+
+1655792286 source:c:\users\student\documents\tutul\veriable\veriable\triangle.c
+	<stdio.h>
+	<math.h>
+
