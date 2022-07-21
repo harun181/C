@@ -1,3 +1,5 @@
+/* Write a C Program to Check Whether a Character is a Vowel or
+Consonant. */
 #include <stdio.h>
 
 int main()

@@ -1,3 +1,5 @@
+/* Take a number from user. Print if the number is
+positive/negative/zero. */
 #include<stdio.h>
 int main()
 {

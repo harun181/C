@@ -5,40 +5,54 @@ int main()
     float bill;
     printf("Enter consumed unit:");
     scanf("%d", &unit);
-    {
 
-        if (unit > 0 && unit <= 199)
-        {
-            bill = unit * 1.20;
-        }
-        else if (unit >= 200 && unit < 400)
-        {
+
+    switch(unit > 0 && unit <= 199)
+    {
+        case 1:
+           bill = unit * 1.20;
+           break;
+
+        case 0:
+            switch(unit >= 200 && unit < 400)
+            {
+            case 1:
             bill = unit * 1.50;
-        }
-        else if (unit >= 400 && unit < 600)
-        {
+            break;
+
+            case 0:
+            switch(unit >= 400 && unit < 600)
+            {
+            case 1:
             bill = unit * 1.80;
-        }
-        else if (unit >= 600)
-        {
+            break;
+            
+            case 0:
+            switch(unit >= 600)
+            {
+            case 1:
             bill = unit * 2.00;
+            break;
+            }
+            }
+            }
+    }
+
+    switch(bill < 100){
+        case 1:
+        bill = 100;
+        printf("Electricity Bill: %.2f", bill);
+        break;
+
+        case 0:
+        switch(bill > 400)
+        {
+            case 1:
+            bill = bill + (bill * 0.15);
+            printf("Electricity Bill: %.2f", bill);
+            break;
         }
     }
-
-    {
-        if (bill < 100)
-
-            bill = 100;
-
-        else if (bill > 400)
-
-            bill = bill + (bill * 0.15);
-        else
-
-            bill = bill;
-    }
-
-    printf("Electricity Bill: %.2f", bill);
-
+    
     return 0;
 }

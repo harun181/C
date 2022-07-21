@@ -1,3 +1,4 @@
+//Write a C program to design a simple CALCULATOR.
 #include <stdio.h>
 int main()
 {

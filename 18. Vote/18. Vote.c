@@ -1,4 +1,5 @@
-
+/* Collect a person&#39;s age and gender. Print if he/she is eligible for voting
+or not. */
 #include <stdio.h>
  int main() {
     int age;

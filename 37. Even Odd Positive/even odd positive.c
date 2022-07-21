@@ -1,3 +1,5 @@
+/* Take an integer number from user. Print if the number is even-
+positive/ odd-positive / even-negative / odd-negative? */
 #include <stdio.h>
 int main()
 {

@@ -1,24 +1,21 @@
+/* Take 3 numbers from user. Find the minimum number. */
 
 #include <stdio.h>
 
 int main() {
-    float salary, inc;
-    printf("Enter the salary:");
-    scanf("%f", &salary);
-    if(salary<10000){
-        inc = salary * 0.25;
-        salary = salary + inc;
-        printf("New Salary: %.2f", salary);
+    int x, y, z;
+    printf("Enter three number:");
+    scanf("%d %d %d", &x, &y, &z);
+    if(x<y && x<z){
+        printf("%d is Minimum", x);
     }
-    else if(salary>50000){
-        inc = salary * 0.10;
-        salary = salary + inc;
-        printf("New Salary: %.2f", salary);
+    else if(y<y && y<z){
+        printf("%d is Minimum", y);
     }
     else{
-        salary = salary + 5000;
-        printf("New Salary: %.2f", salary);
+        printf("%d is Minimum", z);
     }
 
     return 0;
 }
+

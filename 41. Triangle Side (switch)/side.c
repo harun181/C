@@ -1,3 +1,4 @@
+//Take 3 sides of a triangle. Check if the triangle is valid or not.
 #include <stdio.h>
 int main()
 {

@@ -1,3 +1,4 @@
+// Take a student&#39;s math marks as input. Calculate his grade.
 #include <stdio.h>
 int main()
 

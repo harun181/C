@@ -1,3 +1,4 @@
+//Take two numbers from user. Find the largest number.
 
 #include <stdio.h>
 

@@ -1,3 +1,4 @@
+//Take 3 numbers from user. Find the minimum number. 
 #include<stdio.h>
 int main()
 {

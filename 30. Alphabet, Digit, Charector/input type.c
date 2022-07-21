@@ -1,3 +1,5 @@
+/* Take a character from keyboard. Check if the character is
+vowel/consonant/digit/special symbol. */
 #include <stdio.h>
 
 int main()
