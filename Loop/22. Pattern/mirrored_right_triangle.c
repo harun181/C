@@ -1,18 +1,21 @@
 #include <stdio.h>
 int main()
 {
-    int n, r, c, s;
+    int num, row, col;
+    printf("Enter the Row: ");
+    scanf("%d", &num);
 
-    printf("Enter number of rows: ");
-    scanf("%d", &n);
-
-    for (r = 1; r <= n; r++)
+    for (row = 1; row <= num; row++)
     {
-        for (s = 1; s <= n - r; s++)
+        for (col = 1; col <= num - row; col++)
+        {
             printf(" ");
-        for (c = 1; c <= r; c++)
-            printf("*");
+        }
 
+        for (col = 1; col <= row; col++)
+        {
+            printf("*");
+        }
         printf("\n");
     }
 

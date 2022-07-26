@@ -1,25 +1,30 @@
 //Half Dimond Star Pattern
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-    int i,j,n;
-    printf("Enter the number\n");
-    scanf("%d",&n);
-    for(i=1;i<=n;i++)
+    int num, row, col;
+    printf("Enter the Row: ");
+    scanf("%d", &num);
+
+    for (row = 1; row <= num; row++)
     {
-        for(j=1;j<=i;j++)
+
+        for (col = 1; col <= row; col++)
         {
             printf("*");
         }
         printf("\n");
     }
-    for(i=n-1;i>=1;i--)
+
+    for (row = num; row >= 1; row--)
     {
-        for(j=1;j<=i;j++)
+
+        for (col = 1; col <= row; col++)
         {
             printf("*");
         }
         printf("\n");
     }
+
     return 0;
 }

@@ -1,41 +1,36 @@
 #include <stdio.h>
-
 int main()
 {
-    int i, j, N;
-    int star, spaces;
+    int num, row, col;
+    printf("Enter the Row: ");
+    scanf("%d", &num);
 
-    /* Input number of columns to print from user */
-    printf("Enter number of columns : ");
-    scanf("%d", &N);
-
-    spaces = N - 1;
-    star = 1;
-
-    /* Iterate through rows */
-    for (i = 1; i < N * 2; i++)
+    for (row=1; row<=num; row++)
     {
-        /* Print leading spaces */
-        for (j = 1; j <= spaces; j++)
+        for (col=1; col<=num-row; col++)
+        {
             printf(" ");
+        }
 
-        /* Print stars */
-        for (j = 1; j <= star; j++)
+        for (col=1; col<=row; col++)
+        {
             printf("*");
-
-        /* Move to next line */
+        }
         printf("\n");
+    }
 
-        if (i < N)
+    for (row=num; row>=1; row--)
+    {
+        for (col=1; col<=num-row; col++)
         {
-            star++;
-            spaces--;
+            printf(" ");
         }
-        else
+
+        for (col=1; col<=row; col++)
         {
-            star--;
-            spaces++;
+            printf("*");
         }
+        printf("\n");
     }
 
     return 0;

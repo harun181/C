@@ -1,6 +1,4 @@
 <div align="center">
-
-  <img src="code.png" alt="logo" width="200" height="auto" />
   <h1>Awesome Readme Template</h1>
 
   <p>

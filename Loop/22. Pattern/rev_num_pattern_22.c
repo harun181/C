@@ -1,26 +1,21 @@
 #include <stdio.h>
-
 int main()
 {
-    int i, j, N;
+    int num, row, col;
+    printf("Enter the Row: ");
+    scanf("%d", &num);
 
-    printf("Enter N: ");
-    scanf("%d", &N);
-
-    for (i = 1; i <= N; i++)
+    for (row = num; row >= 1; row--)
     {
-        // Logic to print spaces
-        for (j = 1; j < i; j++)
+        for (col = 1; col <= num - row; col++)
         {
             printf(" ");
         }
 
-        // Logic to print numbers
-        for (j = i; j <= N; j++)
+        for (col = 1; col <= row; col++)
         {
-            printf("%d", i);
+            printf("*");
         }
-
         printf("\n");
     }
 
