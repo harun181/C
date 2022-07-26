@@ -1,23 +1,15 @@
-<!--
-Hey, thanks for using the awesome-readme-template template.
-If you have any enhancements, then fork this project and create a pull request
-or just open an issue with the label "enhancement".
-
-Don't forget to give this project a star for additional support ;)
-Maybe you can mention me or this repo in the acknowledgements too
--->
 <div align="center">
 
-  <img src="assets/logo.png" alt="logo" width="200" height="auto" />
+  <img src="code.png" alt="logo" width="200" height="auto" />
   <h1>Awesome Readme Template</h1>
 
   <p>
-    An awesome README template for your projects!
+    100+ C programs problem!
   </p>
 
 <!-- Badges -->
 <p>
-  <a href="https://github.com/Louis3797/awesome-readme-template/graphs/contributors">
+  <a href="https://github.com/harun181/100_plus_C_Problems/tree/v.1.0.0/graphs/contributors">
     <img src="https://img.shields.io/github/contributors/Louis3797/awesome-readme-template" alt="contributors" />
   </a>
   <a href="">
@@ -38,13 +30,13 @@ Maybe you can mention me or this repo in the acknowledgements too
 </p>
 
 <h4>
-    <a href="https://github.com/Louis3797/awesome-readme-template/">View Demo</a>
+    <a href="https://github.com/harun181/100_plus_C_Problems/tree/v.1.0.0">View Demo</a>
   <span> · </span>
-    <a href="https://github.com/Louis3797/awesome-readme-template">Documentation</a>
+    <a href="https://github.com/harun181/100_plus_C_Problems/tree/v.1.0.0">Documentation</a>
   <span> · </span>
-    <a href="https://github.com/Louis3797/awesome-readme-template/issues/">Report Bug</a>
+    <a href="https://github.com/harun181/100_plus_C_Problems/tree/v.1.0.0/issues/">Report Bug</a>
   <span> · </span>
-    <a href="https://github.com/Louis3797/awesome-readme-template/issues/">Request Feature</a>
+    <a href="https://github.com/harun181/100_plus_C_Problems/tree/v.1.0.0/issues/">Request Feature</a>
   </h4>
 </div>
 
@@ -84,7 +76,7 @@ Maybe you can mention me or this repo in the acknowledgements too
 ### :camera: Screenshots
 
 <div align="center">
-  <img src="https://placehold.co/600x400?text=Your+Screenshot+here" alt="screenshot" />
+  <img src="code.png" alt="screenshot" />
 </div>
 
 <!-- TechStack -->
@@ -206,7 +198,7 @@ To run tests, run the following command
 Clone the project
 
 ```bash
-  git clone https://github.com/Louis3797/awesome-readme-template.git
+  git clone https://github.com/harun181/100_plus_C_Problems/tree/v.1.0.0
 ```
 
 Go to the project directory
