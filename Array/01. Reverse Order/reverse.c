@@ -1,6 +1,6 @@
-//read n number of values and display it in reverse order in an array
+// read n number of values and display it in reverse order in an array
 #include <stdio.h>
-    int  main()
+int main()
 {
     int i, n, a[100];
     printf("Enter the number of elements: ");

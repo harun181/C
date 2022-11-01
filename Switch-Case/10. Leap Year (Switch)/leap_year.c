@@ -1,4 +1,4 @@
-//Check if a given year is leap year or not.
+// Check if a given year is leap year or not.
 #include <stdio.h>
 int main()
 {
@@ -7,7 +7,7 @@ int main()
     printf("Enter Year: ");
     scanf("%d", &year);
 
-    remainder = ((year % 4 == 0) && ((year % 400 == 0) || (year % 100 != 0)));
+    remainder = ((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0);
 
     switch (remainder)
     {

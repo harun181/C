@@ -2,7 +2,7 @@
 #include <stdio.h>
 int main()
 {
-    int i, n, a[100], max = 0, min = 0, sum = 0;
+    int i, n, a[100], sum = 0;
     printf("Enter the number of elements: ");
     scanf("%d", &n);
     printf("Enter the elements: ");
@@ -10,6 +10,7 @@ int main()
     {
         scanf("%d", &a[i]);
     }
+    int max = a[0], min = a[0];
     for (i = 0; i < n; i++)
     {
         if (a[i] > max)
