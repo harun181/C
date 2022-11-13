@@ -1,0 +1,48 @@
+basics, pointer vs array, call by ref call by id
+
+Pointer: 
+1. Special kind of variable
+2. Points a Mamory Address
+
+Decelaration:
+1. * for value
+2. & for address 
+
+Pointer Vs Array:
+1. the sizeof operator 
+ sizeof(array) returns the amount of memory used by all elements in array 
+ sizeof(pointer) only returns the amount of memory used by the pointer variable itself 
+
+2) the & operator 
+ array is an alias for &array[0] and returns the address of the first element in array 
+ &pointer returns the address of pointer 
+
+3) a string literal initialization of a character array 
+ char array[] = “abc” sets the first four elements in array to ‘a’, ‘b’, ‘c’, and ‘\0’ 
+ char *pointer = “abc” sets pointer to the address of the “abc” string
+
+4) Pointer variable can be assigned a value whereas array variable cannot be.
+
+int a[10];
+int *p; 
+p=a; /*legal*/
+a=p; /*illegal*/ 
+
+5) Arithmetic on pointer variable is allowed. 
+
+p++; /*Legal*/
+a++; /*illegal*/ 
+
+6) Array is a collection of similar data types while pointer variable stores the address of another variable.
+
+
+Difference between call by value and call by reference in c
+Call by Value:
+ 1.	A copy of the value is passed into the function
+ 2. Changes made inside the function is limited to the function only. The values of the actual parameters do not change by changing the formal parameters.
+ 3. Actual and formal arguments are created at the different memory location
+
+ Call by reference:
+ 1. An address of value is passed into the function
+ 2. Changes made inside the function validate outside of the function also. The values of the actual parameters do change by changing the formal parameters.
+ 3. Actual and formal arguments are created at the same memory location
