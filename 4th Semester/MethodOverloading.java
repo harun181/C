@@ -17,7 +17,11 @@ public class MethodOverloading {
         System.out.println("Enter double number:");
         double d = scan.nextDouble();
 
-        new MethodOverloading().callMethod(a, b);
-        new MethodOverloading().callMethod(d);
+        MethodOverloading n1 = new MethodOverloading();
+        n1.callMethod(a, b);
+        n1.callMethod(d);
+
+//        new MethodOverloading().callMethod(a, b);
+//        new MethodOverloading().callMethod(d);
     }
 }

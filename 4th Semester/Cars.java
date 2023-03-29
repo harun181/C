@@ -6,7 +6,7 @@ public class Cars {
     int wheel;
     int seats;
     String color;
-    void applyBrake(String b){
+    void applyBrake(String b){ //formal
         System.out.println(b);
     }
     void increaseSpeed(String s){
@@ -23,7 +23,7 @@ public class Cars {
         System.out.println("Wheel: " + sedan.wheel);
         System.out.println("Seats: " + sedan.seats);
         System.out.println("Color: " + sedan.color);
-        sedan.applyBrake("Break Applied");
+        sedan.applyBrake("Break Applied"); //acctual
 
         coupe.wheel = 4;
         coupe.seats = 6;
@@ -32,6 +32,5 @@ public class Cars {
         System.out.println("Seats: " + coupe.seats);
         System.out.println("Color: " + coupe.color);
         coupe.increaseSpeed("Speed Increased");
-
     }
 }

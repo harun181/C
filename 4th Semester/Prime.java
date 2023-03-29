@@ -1,12 +1,15 @@
 // Prime number or not?
 
+import java.util.Scanner;
 public class Prime {
 
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter your number: ");
+        int num = sc.nextInt();
 
-        int num = 25;
         int flag = 0;
-        for (int i = 2; i <= num / 2; ++i) {
+        for (int i = 2; i < num; ++i) {
             // condition for nonprime number
             if (num % i == 0) {
                 flag = 1;

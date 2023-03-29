@@ -7,11 +7,11 @@ through keyboard. */
 
 import java.util.Scanner;
 public class Rectangle {
-    static void setDim(int a, int b){
+    void setDim(int a, int b){
         System.out.println("Length: " + a);
         System.out.println("Breadth: " + b);
     }
-    static void getArea(int a, int b){
+    void getArea(int a, int b){
         int result = a*b;
         System.out.println("Area: " + result);
     }
@@ -22,8 +22,10 @@ public class Rectangle {
         int a = sc.nextInt();
         System.out.println("Enter Breadth: ");
         int b = sc.nextInt();
-        setDim(a, b);
-        getArea(a, b);
+
+        Rectangle n1 = new Rectangle();
+        n1.setDim(a, b);
+        n1.getArea(a, b);
 
     }
 }
