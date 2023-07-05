@@ -1,19 +1,21 @@
 package Final;
-abstract class Calculate
+
+class A1 implements B1
 {
-    abstract int add(int a, int b);
+    public int methodB(int i)
+    {
+        return i = ++i * i;
+    }
+}
+interface B1
+{
+    int methodB(int i);
 }
 public class Main
 {
     public static void main(String[] args)
     {
-        int result = new Calculate()
-        {
-            @Override
-            int add(int a, int b)
-            {
-                return a+b;
-            }
-        }.add(11010, 022011);
+        B1 b = new A1();
+        System.out.println(b.methodB(2));
     }
 }
